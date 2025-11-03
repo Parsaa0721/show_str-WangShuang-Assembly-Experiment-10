@@ -55,7 +55,7 @@ START:
 		MOV AX,0002H
 		MUL DL
 		MOV BP,AX
-		;SO ,WE NEED THE rel of LINE 8 IS: DH * 0160D(or 00A0H)
+		;SO ,WE NEED THE rel of COLUMN 3 IS: DH * 2
 
 		PRINT:
 			PUSH CX
